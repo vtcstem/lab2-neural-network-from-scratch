@@ -19,12 +19,14 @@ To show the parameters you can tweek, run in the terminal
 usage: run_examples.py [-h] [--output] [-d DATASET] [-lr LR] [-i ITER]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  --output              output trained weights
-  -d DATASET, --dataset DATASET
-                        choose dataset: moon / planar
-  -lr LR, --learningrate LR
-                        define the learning rate
-  -i ITER, --iteration ITER
-                        define the learning rate
+
+  -h, --help                         show this help message and exit
+  
+  --output                           output trained weights
+  
+  -d DATASET, --dataset DATASET      choose dataset: moon / planar
+  
+  -lr LR, --learningrate LR          define the learning rate
+  
+  -i ITER, --iteration ITER          define the learning rate
                         
