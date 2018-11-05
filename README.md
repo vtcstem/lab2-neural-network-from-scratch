@@ -20,13 +20,15 @@ usage: run_examples.py [-h] [--output] [-d DATASET] [-lr LR] [-i ITER]
 
 optional arguments:
 
-  -h, --help                         show this help message and exit
+  -h, --help                        
   
-  --output                           output trained weights
+  --output                           
   
-  -d DATASET, --dataset DATASET      choose dataset: moon / planar
+  -d DATASET, --dataset DATASET : choose dataset "moon" / "planar"
   
-  -lr LR, --learningrate LR          define the learning rate
+  -lr LR, --learningrate LR          
   
-  -i ITER, --iteration ITER          define the learning rate
-                        
+  -i ITER, --iteration ITER          
+
+e.g. python run_example.py -d moon -lr 0.003 -i 40000
+This will load the "moon" dataset and use learning rate of 0.003 and 40000 iterations to train the NN.
