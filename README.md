@@ -1,4 +1,4 @@
-# lab2-neural-network-from-scratch
+# Lab 2 of Neural Network from Scratch
 
 Welcome to Lab 2 of the machine learning series.
 
