@@ -31,4 +31,5 @@ optional arguments:
   -i ITER, --iteration ITER          
 
 e.g. python run_example.py -d moon -lr 0.003 -i 40000
+
 This will load the "moon" dataset and use learning rate of 0.003 and 40000 iterations to train the NN.
