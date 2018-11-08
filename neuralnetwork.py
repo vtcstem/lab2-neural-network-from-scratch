@@ -56,13 +56,13 @@ class neuralnetwork:
         # save Z1, A1, Z2 and A2 in cache for later use
         self.cache = {"Z1": Z1, "A1": A1, "Z2": Z2, "A2": A2}
 
-    def cross_entropy_loss(self, Y_hat):
+    def cross_entropy_loss(self, Y):
         """
-        computes cross entropy loss function
-        input: Y_hat, vector of results predicted by our neural network
-        output: J, cost value of Y_hat
+        computes cross entropy loss function using Y_hat and Y
+        input: Y, vector of ground truth of the data
+        output: J, cost value
         """
-        A2 = self.cache["A2"]
+        A2 = self.cache["A2"]   # This is Y_hat
         assert self.m != 0
 
         ### Your code here (~1-2 lines) ###
